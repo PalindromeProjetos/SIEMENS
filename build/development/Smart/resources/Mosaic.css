@@ -1,0 +1,327 @@
+.mosaic-medium-users-title {
+    font-size: 20px;
+    font-family: Pontano;
+    color: royalblue;
+}
+
+.mosaic-medium-users-detail {
+    font-size: 14px;
+    font-family: Pontano;
+    color: maroon;
+}
+
+.main-toolbar-height {
+    padding: 12px !important;
+}
+
+.main-toolbar-color {
+    background-color: rgb(64, 64, 64) !important;
+}
+
+.main-toolbar-height .x-btn-default-toolbar-medium {
+    border-radius: 40px;
+}
+
+.main-toolbar-color .x-toolbar-text {
+    color: white;
+}
+
+.header-height {
+    height: 60px !important;
+}
+
+.header-icon {
+    height: 36px !important;
+    line-height: 36px !important;
+}
+
+.header-height .x-panel-header-title-default > .x-title-text-default {
+    font-size: 21px !important;
+    font-weight: 700 !important;
+}
+
+/*    Custon buttons for this Mosaic module     */
+
+/*
+    btn-darkred
+*/
+.smart-btn-darkred {
+    background-image: none !important;
+    border-style: none !important;
+    border-color: rgba(128,0,0, 1) !important;
+}
+
+.smart-btn-darkred-over {
+    background-color: rgba(220,20,60, 1) !important;
+    border-color: rgba(220,20,60, 1) !important;
+}
+
+.smart-btn-darkred-over .x-btn-icon > .x-btn-icon-el {
+    color: white !important;
+}
+
+
+.smart-btn-darkred.x-btn-pressed {
+    border-color: rgba(220,20,60, .5) !important;
+}
+
+.smart-btn-darkred.x-btn-focus, .x-btn-focus.x-btn-pressed {
+    box-shadow: 0px 0px 0px 0px inset !important;
+}
+
+/*
+    btn-noborder
+*/
+.smart-btn-noborder {
+    background-image: none !important;
+    border-style: none !important;
+}
+
+.smart-btn-noborder-over {
+    border-color: rgb(53, 186, 246) !important;
+}
+
+.smart-btn-noborder.x-btn-pressed {
+    border-color: rgb(53, 186, 246) !important;
+}
+
+.smart-btn-noborder.x-btn-focus, .x-btn-focus.x-btn-pressed {
+    box-shadow: 0px 0px 0px 0px inset !important;
+}
+
+/*
+    defaults
+*/
+
+.panel-shadow {
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.panel-shadow > .x-docked {
+    z-index: 0 !important;
+    border-radius: 0px !important;
+}
+
+.panel-frame {
+    border-radius: 0px !important;
+}
+
+.panel-frame > .x-docked {
+    z-index: 0 !important;
+    border-radius: 0px !important;
+}
+
+.action-update-color {
+    color: white !important;
+}
+
+.action-update-color:before {
+    padding: 3px 4px 3px 4px !important;
+    background-color: rgb(248, 202, 0) !important;
+}
+
+.action-update-color-font {
+    color: rgb(248, 202, 0) !important;
+}
+
+.action-delete-color {
+    color: white !important;
+}
+
+.action-delete-color:before {
+    padding: 3px 4px 3px 4px !important;
+    background-color: rgb(245, 105, 145) !important;
+}
+
+.action-delete-color-font {
+    color: rgb(245, 105, 145) !important;
+}
+
+.action-delete-color-font:hover {
+    color: red !important;
+}
+
+.action-select-color {
+    color: white !important;
+}
+
+.action-select-color:before {
+    padding: 3px 4px 3px 4px !important;
+    background-color: rgb(138, 155, 15) !important;
+}
+
+.action-select-color-font {
+    color: rgb(138, 155, 15) !important;
+}
+
+.title-label {
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.sub-title-label {
+    font-size: 18px;
+    line-height: 18px;
+}
+/*
+    update-grid
+*/
+.update-grid {
+    z-index: 0 !important;
+}
+
+.update-grid .x-grid-td {
+    vertical-align: middle;
+}
+
+.update-grid .x-grid-cell-inner {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.update-grid .x-grid-body {
+    border-width: 1px 1px 1px;
+}
+
+.update-grid .x-grid-cell-inner-action-col {
+    text-align: center !important;
+}
+
+/*
+    search-grid
+*/
+
+.search-grid {
+    z-index: 0 !important;
+}
+
+.search-grid .x-grid-td {
+    vertical-align: middle;
+}
+
+.search-grid .x-grid-cell-inner {
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.search-grid .x-grid-body {
+    border-width: 1px 1px 1px;
+}
+
+.search-grid .x-grid-cell-inner-action-col {
+    text-align: center !important;
+}
+
+/*
+    list-grid
+*/
+
+.list-grid {
+    z-index: 0 !important;
+}
+
+.list-grid .x-grid-td {
+    vertical-align: middle;
+}
+
+.list-grid .x-grid-cell-inner {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.list-grid .x-grid-body {
+    border-width: 1px 1px 1px;
+}
+
+.list-grid .x-grid-cell-inner-action-col {
+    text-align: center !important;
+}
+
+/*
+    Contract Package
+*/
+
+.contract-list {
+    z-index: 0 !important;
+}
+
+.contract-list .x-grid-body {
+    border-width: 1px 1px 1px;
+}
+
+.contract-list .x-grid-cell-inner {
+    padding: 0px 0px 0px 0px;
+}
+
+.contract-list .line {
+    height: 45px;
+    line-height: 14px;
+}
+.contract-list .data {
+    float: left;
+    height: 100%;
+    color: #000000;
+    font-family: Monda;
+}
+
+.contract-list .data span {
+    float:left;
+    cursor: pointer;
+    z-index: 800000;
+    color: white;
+    width: 30px;
+    padding: 1px;
+    margin: 1px 2px 0 0;
+    position: relative;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    text-align: center;
+    font-family: Monda;
+}
+
+.additive-status-p {
+    background: rgba(245, 92, 46, .6);
+}
+
+.additive-status-p:hover {
+    background: rgba(245, 92, 46, 1);
+}
+
+.additive-status-n {
+    background: rgba(0, 123, 0, .6);
+}
+.additive-status-n:hover {
+    background: rgba(0, 123, 0, 1);
+}
+
+.icon-move-hover:hover {
+    color: rgba(3, 98, 253, 1);
+}
+
+.additive-status-a {
+    background: rgba(3, 98, 253, .6);
+}
+
+.additive-status-a:hover {
+    background: rgba(3, 98, 253, 1);
+}
+
+.additive-status-i:hover {
+    background: rgba(222, 29, 42, .6);
+}
+
+.additive-status-i {
+    background: rgba(222, 29, 42, 1);
+}
+
+.additive-status-l {
+    background: rgba(119, 79, 56, .6);
+}
+
+.additive-status-l:hover {
+    background: rgba(119, 79, 56, 1);
+}
