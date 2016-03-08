@@ -3,6 +3,8 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.sencha" />
+      <excludeFolder url="file://$MODULE_DIR$/ProductionAdmin/.sencha" />
+      <excludeFolder url="file://$MODULE_DIR$/ProductionLabel/.sencha" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
       <excludeFolder url="file://$MODULE_DIR$/overrides" />
     </content>
