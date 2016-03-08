@@ -1,0 +1,57 @@
+/*http://erikasarti.net/html/tabela-cores/*/
+
+/*
+    btn-red
+*/
+.smart-btn-red {
+    background-image: none !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    background-color: #FB3C4A !important;
+    border-color: #FB3C4A !important;
+}
+
+.smart-btn-red-over {
+    background-color: #DF0010 !important;
+    border-color: #DF0010 !important;
+}
+
+.smart-btn-red.x-btn-pressed {
+    background-color: #990000 !important;
+    border-color: #990000 !important;
+}
+
+.smart-btn-red.x-btn-focus, .x-btn-focus.x-btn-pressed {
+    box-shadow: 0px 0px 0px 0px inset !important;
+}
+
+/*
+    btn-sepia
+*/
+.smart-btn-sepia {
+    background-image: none !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    background-color: rgb(146, 151, 128) !important;
+    border-color: rgb(146, 151, 128) !important;
+}
+
+.smart-btn-sepia-over {
+    background-color: rgb(240, 240, 240) !important;
+    border-color: rgb(146, 151, 128) !important;
+}
+
+/*rgb(242, 225, 145)*/
+
+.smart-btn-sepia-over .x-btn-icon > .x-btn-icon-el {
+    color: rgb(146, 151, 128) !important;
+}
+
+.smart-btn-sepia.x-btn-pressed {
+    background-color: rgb(138, 155, 15) !important;
+    border-color: rgb(138, 155, 15) !important;
+}
+
+.smart-btn-sepia.x-btn-focus, .x-btn-focus.x-btn-pressed {
+    box-shadow: 0px 0px 0px 0px inset !important;
+}
