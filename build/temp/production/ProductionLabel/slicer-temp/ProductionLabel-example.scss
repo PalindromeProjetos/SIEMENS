@@ -1016,12 +1016,18 @@ $include-ext-view-view: dynamic(true);;
 $include-ext-window-messagebox: dynamic(true);;
 $include-ext-window-toast: dynamic(true);;
 $include-ext-window-window: dynamic(true);;
+$include-productionadmin-model-admin-productionline: dynamic(true);;
+$include-productionadmin-store-admin-productionline: dynamic(true);;
+$include-productionadmin-view-admin-productionlinesearch: dynamic(true);;
 $include-productionlabel-application: dynamic(true);;
+$include-productionlabel-model-production-production: dynamic(true);;
 $include-productionlabel-store-personnel: dynamic(true);;
-$include-productionlabel-view-main-list: dynamic(true);;
+$include-productionlabel-store-production-production: dynamic(true);;
 $include-productionlabel-view-main-main: dynamic(true);;
 $include-productionlabel-view-main-maincontroller: dynamic(true);;
-$include-productionlabel-view-main-mainmodel: dynamic(true);;
+$include-productionlabel-view-production-parameter: dynamic(true);;
+$include-productionlabel-view-production-parametercontroller: dynamic(true);;
+$include-productionview: dynamic(true);;
 $include-smart-buttonexporter: dynamic(true);;
 $include-smart-cookie: dynamic(true);;
 $include-smart-format: dynamic(true);;
@@ -1355,6 +1361,14 @@ $current-package: false;
 $current-resource-root: $ProductionLabel-resource-root;
 $relative-image-path-for-uis: $ProductionLabel-resource-path;
 @import '../../../../../ProductionLabel/sass/var/all';
+
+/* including package ProductionLabel */
+$ProductionLabel-resource-root: '' !default;
+$ProductionLabel-resource-path: 'images' !default;
+$current-package: false;
+$current-resource-root: $ProductionLabel-resource-root;
+$relative-image-path-for-uis: $ProductionLabel-resource-path;
+@import '../../../../../ProductionLabel/classic/sass/var/Application';
 
 
 /* ======================== RULE ======================== */

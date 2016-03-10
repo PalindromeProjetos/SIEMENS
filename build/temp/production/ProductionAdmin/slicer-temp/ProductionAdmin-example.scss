@@ -1017,8 +1017,9 @@ $include-ext-window-messagebox: dynamic(true);;
 $include-ext-window-toast: dynamic(true);;
 $include-ext-window-window: dynamic(true);;
 $include-productionadmin-application: dynamic(true);;
-$include-productionadmin-store-personnel: dynamic(true);;
-$include-productionadmin-view-main-list: dynamic(true);;
+$include-productionadmin-model-admin-productionline: dynamic(true);;
+$include-productionadmin-store-admin-productionline: dynamic(true);;
+$include-productionadmin-view-admin-productionlinesearch: dynamic(true);;
 $include-productionadmin-view-main-main: dynamic(true);;
 $include-productionadmin-view-main-maincontroller: dynamic(true);;
 $include-productionadmin-view-main-mainmodel: dynamic(true);;
@@ -1355,6 +1356,14 @@ $current-package: false;
 $current-resource-root: $ProductionAdmin-resource-root;
 $relative-image-path-for-uis: $ProductionAdmin-resource-path;
 @import '../../../../../ProductionAdmin/sass/var/all';
+
+/* including package ProductionAdmin */
+$ProductionAdmin-resource-root: '' !default;
+$ProductionAdmin-resource-path: 'images' !default;
+$current-package: false;
+$current-resource-root: $ProductionAdmin-resource-root;
+$relative-image-path-for-uis: $ProductionAdmin-resource-path;
+@import '../../../../../ProductionAdmin/classic/sass/var/Application';
 
 
 /* ======================== RULE ======================== */

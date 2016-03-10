@@ -23,7 +23,10 @@
     "classpath": [
         "app",
         "${toolkit.name}/src",
-        "${app.dir}/../library"
+        "${app.dir}/../library",
+        "${app.dir}/../ProductionAdmin/app/store",
+        "${app.dir}/../ProductionAdmin/app/model",
+        "${app.dir}/../ProductionAdmin/classic/src/view/admin"
 //        "${app.dir}/../iContract/app/store",
 //        "${app.dir}/../iContract/app/model"
     ],

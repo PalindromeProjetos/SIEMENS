@@ -1,8 +1,18 @@
-/*
- * This file is generated and updated by Sencha Cmd. You can edit this file as
- * needed for your application, but these edits will have to be merged by
- * Sencha Cmd when upgrading.
- */
+//@charset UTF-8
+Ext.Loader.setConfig({
+    enabled: true,
+    paths: {
+        'Smart.ux': '../library/ux',
+        'Smart.app': '../library/app',
+        'Smart.plugins': '../library/plugins',
+        'Smart.class': '../library/util',
+        'Smart.data': '../library/data',
+        'Smart.data.field': '../library/data/field',
+        'Smart.form': '../library/form',
+        'Smart.form.field': '../library/form/field'
+    }
+});
+
 Ext.application({
     name: 'ProductionAdmin',
 

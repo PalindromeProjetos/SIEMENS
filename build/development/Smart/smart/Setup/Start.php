@@ -6,7 +6,7 @@ class Start {
 
     private static $pwd = "";
     private static $usr = "root";
-    private static $dtb = "bighero";
+    private static $dtb = "siemens";
     private static $tmz = "America/Manaus";
     private static $dns = "mysql:host=localhost;dbname=dtb";
 //    private static $dns = "sqlsrv:server=(local);database=dtb";

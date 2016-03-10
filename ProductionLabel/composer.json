@@ -5,9 +5,6 @@
   ],
 
   "require": {
-    "itbz/fpdf": "dev-master",
-    "phpoffice/phpexcel": "dev-master",
-    "phpmailer/phpmailer": "dev-master"
   },
 
   "autoload": {
