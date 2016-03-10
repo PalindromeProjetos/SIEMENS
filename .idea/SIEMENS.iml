@@ -6,6 +6,7 @@
       <excludeFolder url="file://$MODULE_DIR$/ProductionAdmin/.sencha" />
       <excludeFolder url="file://$MODULE_DIR$/ProductionLabel/.sencha" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/ext" />
       <excludeFolder url="file://$MODULE_DIR$/overrides" />
     </content>
     <orderEntry type="inheritedJdk" />
