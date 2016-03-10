@@ -1472,11 +1472,3 @@ $current-resource-root: $theme-triton-resource-root;
 $relative-image-path-for-uis: $theme-triton-resource-path;
 @import '../../../../../ext/classic/theme-triton/sass/src/Component';
 @import '../../../../../ext/classic/theme-triton/sass/src/menu/Menu';
-
-/* including package ProductionLabel */
-$ProductionLabel-resource-root: '' !default;
-$ProductionLabel-resource-path: 'images' !default;
-$current-package: false;
-$current-resource-root: $ProductionLabel-resource-root;
-$relative-image-path-for-uis: $ProductionLabel-resource-path;
-@import '../../../../../ProductionLabel/classic/sass/src/view/main/Main';
